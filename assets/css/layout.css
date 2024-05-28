@@ -201,7 +201,7 @@ aside {
 
 footer {
   /* Altura do elemento. */
-  background-position-y: "calc(100% + 200px)";
+  background-position-y: calc(100% + 200px);
   height: 100px;
 }
 
@@ -291,5 +291,9 @@ a {
     /* Realizar a subtração de 100% da altura vertical menos a soma    */
     /* da altura dos elementos ( 300px ) com as suas margens ( 30px ). */
     height: calc(100vh - 330px);
+  }
+
+  footer {
+    background-position-y: 0;
   }
 }
