@@ -121,6 +121,7 @@ footer {
 header {
   /* Altura do elemento. */
   height: 100px;
+  background-position-y: "calc(100% + 200px)";
 }
 
 header #logo {
@@ -200,6 +201,7 @@ aside {
 
 footer {
   /* Altura do elemento. */
+  background-position-y: "calc(100% + 200px)";
   height: 100px;
 }
 
@@ -214,6 +216,19 @@ a {
 /* Altera o estilo dos elementos para serem apresentados */
 /* em telas menores que 717px. */
 @media only screen and (max-width: 717px) {
+  body {
+    background-color: whitesmoke;
+  }
+
+  header {
+    background-position: 100%;
+  }
+
+  .hero {
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fservices.meteored.com%2Fimg%2Farticle%2Fgases-toxicos-otra-amenaza-letal-del-volcan-en-la-palma-erupcion-canarias-369061-1_1024.jpg&f=1&nofb=1&ipt=b6c7f06de9ed121d952220a72bab209e89e9651561b01d89ef6ec09e51ce6da7&ipo=images);
+    background-position-x: center;
+  }
+
   #openMenu,
   #closeMenu {
     /* Retorna a visibilidade padrão. */

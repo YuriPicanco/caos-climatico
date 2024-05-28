@@ -26,7 +26,6 @@ function aplicarEstilos() {
       "background-image":
         "url(https://img.freepik.com/fotos-gratis/composicao-de-efeitos-climaticos_23-2149853311.jpg)",
       "background-size": "cover",
-      backgroundPositionY: "calc(100% + 200px)",
       "background-repeat": "no-repeat",
     },
   };
@@ -52,7 +51,6 @@ function aplicarEstilos() {
       "background-image":
         "url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fgravatai24horas.com.br%2Fwp-content%2Fuploads%2F2023%2F09%2Fenchente-rs.jpeg&f=1&nofb=1&ipt=d85f8226dcfda4b214e347be2401aa4b1444be9cd7ad4b5c25f8974443f5544d&ipo=images)",
       "background-size": "cover",
-      backgroundPositionY: "calc(100% + 200px)",
       "background-repeat": "no-repeat",
     },
   };
